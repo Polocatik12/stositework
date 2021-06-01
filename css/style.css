@@ -1,0 +1,39 @@
+body{
+    font-family: 'Odibee Sans', cursive;
+}
+/* Navbar */
+.navbar{
+    background: #ECF1F4 !important;
+    padding: 20px 0 ;
+}
+.navbar .nav-item{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.navbar .nav-item .nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    color:black ;
+    margin: 0 15px;
+    padding: 0;
+    transition: all .4s ease-in-out;
+
+}
+.navbar .nav-item .nav-link:hover{
+    font-size: 25px;
+    color: #fff7f7;
+}
+.navbar .main-btn {
+    background-color:dimgray;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 45px;
+    border-radius: 5px;
+    margin-left: 25px;
+    display: inline-block;
+}
+.navbar .main-btn:hover{
+    background: black;
+}
