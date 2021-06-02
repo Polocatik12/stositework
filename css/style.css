@@ -1,6 +1,45 @@
 body{
     font-family: 'Odibee Sans', cursive;
 }
+/* Typography */
+h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #050931;
+    margin: 0;
+    padding: 0;
+}
+h2{}
+h3{}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+/* Sapcing */
+.mt-10{
+    margin-top: 10px !important;
+}
+.mt-20{
+    margin-top: 20px !important;
+}
+.mt-30{
+    margin-top: 30px !important;
+}
+.mt-50{
+    margin-top: 50px !important;
+}
+.p-0{
+    padding: 0 !important;
+}
+.mb-25{
+    margin-bottom: 25px !important;
+}
+
 /* Navbar */
 .navbar{
     background: #ECF1F4 !important;
@@ -36,4 +75,46 @@ body{
 }
 .navbar .main-btn:hover{
     background: black;
+}
+
+/* Hero */
+.hero{
+    height: 90vh;
+    background: #ECF1F4;
+}
+.hero span{
+    background: #c5b6b6;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: black;
+    font-size: 11px;
+    font-weight: 500;
+}
+.hero .form-control{
+    padding: 18px 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+
+}
+.hero .form-btn{
+    background:blanchedalmond;
+    height: 100%;
+    width: 100%;
+   /* color: #ffffff;*/
+    border-radius: 0 5px 5px 0;
+    transition: all .4s ease-in-out;
+}
+.hero .form-btn:hover{
+    background: #eba420;
+
+}
+.hero .form-shadow{
+    box-shadow: 0px 10px 25px 0px rgba(70, 85, 103, 0.08);
+    margin-top: 25px;
+}
+.hero .herp-img{
+    width:30%;
+    
 }
